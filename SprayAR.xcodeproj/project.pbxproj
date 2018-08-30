@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143A178CDB5932DBA2F8FC00 /* Pods_SprayAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDCB1863C4C3F44F3B5855B /* Pods_SprayAR.framework */; };
+		6F254A7520E65D3D00D74EEC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F254A7420E65D3D00D74EEC /* SettingsView.swift */; };
+		6F254A7720E6654400D74EEC /* SettingsMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F254A7620E6654400D74EEC /* SettingsMenuDelegate.swift */; };
+		6F254A7A20E6792500D74EEC /* Paint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F254A7920E6792500D74EEC /* Paint.swift */; };
+		6F254A7D20E68AE900D74EEC /* SnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F254A7C20E68AE900D74EEC /* SnapViewController.swift */; };
 		6FAC9BCE20DF04F0000AA3C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC9BCD20DF04F0000AA3C8 /* AppDelegate.swift */; };
 		6FAC9BD020DF04F0000AA3C8 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC9BCF20DF04F0000AA3C8 /* art.scnassets */; };
 		6FAC9BD220DF04F0000AA3C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC9BD120DF04F0000AA3C8 /* ViewController.swift */; };
 		6FAC9BD520DF04F0000AA3C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC9BD320DF04F0000AA3C8 /* Main.storyboard */; };
 		6FAC9BD720DF04F5000AA3C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC9BD620DF04F5000AA3C8 /* Assets.xcassets */; };
 		6FAC9BDA20DF04F5000AA3C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC9BD820DF04F5000AA3C8 /* LaunchScreen.storyboard */; };
+		6FAC9BE220DFA14E000AA3C8 /* CenterNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC9BE120DFA14E000AA3C8 /* CenterNode.swift */; };
+		6FAC9BE620DFA849000AA3C8 /* ARDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC9BE520DFA849000AA3C8 /* ARDelegate.swift */; };
+		6FAC9BE820E03CFE000AA3C8 /* CenterAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC9BE720E03CFE000AA3C8 /* CenterAnchor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F254A7420E65D3D00D74EEC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6F254A7620E6654400D74EEC /* SettingsMenuDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMenuDelegate.swift; sourceTree = "<group>"; };
+		6F254A7920E6792500D74EEC /* Paint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paint.swift; sourceTree = "<group>"; };
+		6F254A7C20E68AE900D74EEC /* SnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapViewController.swift; sourceTree = "<group>"; };
 		6FAC9BCA20DF04F0000AA3C8 /* SprayAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SprayAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAC9BCD20DF04F0000AA3C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FAC9BCF20DF04F0000AA3C8 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +36,12 @@
 		6FAC9BD620DF04F5000AA3C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FAC9BD920DF04F5000AA3C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FAC9BDB20DF04F5000AA3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FAC9BE120DFA14E000AA3C8 /* CenterNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterNode.swift; sourceTree = "<group>"; };
+		6FAC9BE520DFA849000AA3C8 /* ARDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDelegate.swift; sourceTree = "<group>"; };
+		6FAC9BE720E03CFE000AA3C8 /* CenterAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAnchor.swift; sourceTree = "<group>"; };
+		9DDCB1863C4C3F44F3B5855B /* Pods_SprayAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SprayAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69B4F6988DF8F9F7112AD2D /* Pods-SprayAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SprayAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SprayAR/Pods-SprayAR.debug.xcconfig"; sourceTree = "<group>"; };
+		DC64738C2BC746EEBD273210 /* Pods-SprayAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SprayAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-SprayAR/Pods-SprayAR.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143A178CDB5932DBA2F8FC00 /* Pods_SprayAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F254A7820E678DE00D74EEC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6F254A7420E65D3D00D74EEC /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6F254A7B20E6793500D74EEC /* Paint */ = {
+			isa = PBXGroup;
+			children = (
+				6F254A7920E6792500D74EEC /* Paint.swift */,
+			);
+			path = Paint;
+			sourceTree = "<group>";
+		};
+		6F254A7E20E68B4200D74EEC /* SnapVC */ = {
+			isa = PBXGroup;
+			children = (
+				6F254A7C20E68AE900D74EEC /* SnapViewController.swift */,
+			);
+			path = SnapVC;
+			sourceTree = "<group>";
+		};
 		6FAC9BC120DF04F0000AA3C8 = {
 			isa = PBXGroup;
 			children = (
 				6FAC9BCC20DF04F0000AA3C8 /* SprayAR */,
 				6FAC9BCB20DF04F0000AA3C8 /* Products */,
+				A9CD2F6CB75E752F6B835AC7 /* Pods */,
+				E063E11842FE4E244019FC61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +102,54 @@
 			isa = PBXGroup;
 			children = (
 				6FAC9BCD20DF04F0000AA3C8 /* AppDelegate.swift */,
-				6FAC9BCF20DF04F0000AA3C8 /* art.scnassets */,
-				6FAC9BD120DF04F0000AA3C8 /* ViewController.swift */,
 				6FAC9BD320DF04F0000AA3C8 /* Main.storyboard */,
+				6F254A7E20E68B4200D74EEC /* SnapVC */,
+				6FAC9BE420DFA804000AA3C8 /* DrawVC */,
+				6FAC9BE320DFA7F6000AA3C8 /* Nodes */,
+				6F254A7820E678DE00D74EEC /* Settings */,
+				6FAC9BCF20DF04F0000AA3C8 /* art.scnassets */,
 				6FAC9BD620DF04F5000AA3C8 /* Assets.xcassets */,
 				6FAC9BD820DF04F5000AA3C8 /* LaunchScreen.storyboard */,
 				6FAC9BDB20DF04F5000AA3C8 /* Info.plist */,
 			);
 			path = SprayAR;
+			sourceTree = "<group>";
+		};
+		6FAC9BE320DFA7F6000AA3C8 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				6F254A7B20E6793500D74EEC /* Paint */,
+				6FAC9BE120DFA14E000AA3C8 /* CenterNode.swift */,
+				6FAC9BE720E03CFE000AA3C8 /* CenterAnchor.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		6FAC9BE420DFA804000AA3C8 /* DrawVC */ = {
+			isa = PBXGroup;
+			children = (
+				6FAC9BD120DF04F0000AA3C8 /* ViewController.swift */,
+				6F254A7620E6654400D74EEC /* SettingsMenuDelegate.swift */,
+				6FAC9BE520DFA849000AA3C8 /* ARDelegate.swift */,
+			);
+			path = DrawVC;
+			sourceTree = "<group>";
+		};
+		A9CD2F6CB75E752F6B835AC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A69B4F6988DF8F9F7112AD2D /* Pods-SprayAR.debug.xcconfig */,
+				DC64738C2BC746EEBD273210 /* Pods-SprayAR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E063E11842FE4E244019FC61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DDCB1863C4C3F44F3B5855B /* Pods_SprayAR.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +159,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FAC9BDE20DF04F5000AA3C8 /* Build configuration list for PBXNativeTarget "SprayAR" */;
 			buildPhases = (
+				AB417717E4C14CC5944B9294 /* [CP] Check Pods Manifest.lock */,
 				6FAC9BC620DF04F0000AA3C8 /* Sources */,
 				6FAC9BC720DF04F0000AA3C8 /* Frameworks */,
 				6FAC9BC820DF04F0000AA3C8 /* Resources */,
@@ -134,12 +220,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AB417717E4C14CC5944B9294 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SprayAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6FAC9BC620DF04F0000AA3C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6FAC9BD220DF04F0000AA3C8 /* ViewController.swift in Sources */,
+				6FAC9BE620DFA849000AA3C8 /* ARDelegate.swift in Sources */,
+				6F254A7A20E6792500D74EEC /* Paint.swift in Sources */,
+				6F254A7D20E68AE900D74EEC /* SnapViewController.swift in Sources */,
+				6F254A7720E6654400D74EEC /* SettingsMenuDelegate.swift in Sources */,
+				6FAC9BE820E03CFE000AA3C8 /* CenterAnchor.swift in Sources */,
+				6F254A7520E65D3D00D74EEC /* SettingsView.swift in Sources */,
+				6FAC9BE220DFA14E000AA3C8 /* CenterNode.swift in Sources */,
 				6FAC9BCE20DF04F0000AA3C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +396,13 @@
 		};
 		6FAC9BDF20DF04F5000AA3C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69B4F6988DF8F9F7112AD2D /* Pods-SprayAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G6Q686ZQ92;
 				INFOPLIST_FILE = SprayAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +410,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "RU.Ilia-Stukalov.SprayAR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6FAC9BE020DF04F5000AA3C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC64738C2BC746EEBD273210 /* Pods-SprayAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G6Q686ZQ92;
 				INFOPLIST_FILE = SprayAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +430,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "RU.Ilia-Stukalov.SprayAR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
